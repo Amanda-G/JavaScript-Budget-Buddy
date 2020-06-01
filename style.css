@@ -12,6 +12,10 @@ h1{
     font-family: 'Press Start 2P', cursive, sans-serif;
 }
 
+.background-helper{
+    position: relative;
+}
+
 .background {
     content:'';
     background-image: url(./image/raining-dollarsign.jpg);

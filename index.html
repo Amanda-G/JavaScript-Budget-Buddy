@@ -10,9 +10,7 @@
 </head>
 
 <body>
-    <div class="background-helper">
-        <div class="background"></div>
-    </div>
+    <div class="background"></div>
     <div class="main-container">
         <header class="desk-header">
             <img class="logo" src="image\LogoMakr_6XEEPa.png" alt="Logo">
@@ -55,28 +53,41 @@
             </div>
             <div class="tracker">
                 <h2>Spending tracker</h2>
-                <div class="tracker-content">
-                    <div class="category">
-                        <button class="button drops dropF"><i class="fas fa-chevron-circle-down"></i>Food</button>
-                        <ul class="lists food"></ul>
-                        <button class="button drops dropE"><i
-                                class="fas fa-chevron-circle-down"></i>Entertainment</button>
-                        <ul class="lists entertainment"></ul>
-                        <button class="button drops dropB"><i class="fas fa-chevron-circle-down"></i>Bills</button>
-                        <ul class="lists bills"></ul>
-                        <button class="button drops dropC"><i class="fas fa-chevron-circle-down"></i>Clothes</button>
-                        <ul class="lists clothes"></ul>
-                    </div>
-                    <div class="money-container">
+                <div class="category">
+                    <div class="category-btns">
+                        <div class="button-lists">
+                            <button class="button drops dropF"><i class="fas fa-chevron-circle-down"></i>Food</button>
+                            <ul class="lists food"></ul>
+                        </div>
                         <p class="food-total">$0.00</p>
+                    </div>
+                    <div class="category-btns">
+                        <div class="button-lists">
+                            <button class="button drops dropE"><i
+                                    class="fas fa-chevron-circle-down"></i>Entertainment</button>
+                            <ul class="lists entertainment"></ul>
+                        </div>
                         <p class="entertainment-total">$0.00</p>
+                    </div>
+                    <div class="category-btns">
+                        <div class="button-lists">
+                            <button class="button drops dropB"><i class="fas fa-chevron-circle-down"></i>Bills</button>
+                            <ul class="lists bills"></ul>
+                        </div>
                         <p class="bills-total">$0.00</p>
+                    </div>
+                    <div class="category-btns">
+                        <div class="button-lists">
+                            <button class="button drops dropC"><i
+                                    class="fas fa-chevron-circle-down"></i>Clothes</button>
+                            <ul class="lists clothes"></ul>
+                        </div>
                         <p class="clothes-total">$0.00</p>
                     </div>
                 </div>
             </div>
-            <div class="spacer"></div>
         </section>
+        <div class="spacer"></div>
         <div class="popup">
             <p class="popup-text">You've reached your weekly budget!</p>
         </div>
